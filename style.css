@@ -1,0 +1,542 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+html,
+body {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	background: linear-gradient( 180deg,
+	#373773,
+	#235689,
+	#2a9096,
+	#364a7b,
+	#4a367b,
+	#5e3665,
+	#2c294b,
+	#31437a);
+	background-size: 1600% 1600%;
+	-webkit-animation: skygradient 180s ease infinite;
+	-moz-animation: skygradient 180s ease infinite;
+	-o-animation: skygradient 180s ease infinite;
+	animation: skygradient 180s ease infinite;
+}
+
+@-webkit-keyframes skygradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+
+@-moz-keyframes skygradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+
+@-o-keyframes skygradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+
+@keyframes skygradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+
+canvas {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+
+/*END ANIMATION*/
+
+/*******BUTTON****/
+
+/*START MENU */
+
+
+@-webkit-keyframes rotate135 {
+  form {
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+}
+@keyframes rotate135 {
+  form {
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+}
+@-webkit-keyframes rotate45 {
+  to {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+@keyframes rotate45 {
+  to {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+@-webkit-keyframes rotateBack {
+  to {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+@keyframes rotateBack {
+  to {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+@-webkit-keyframes slideRight {
+  to {
+    -webkit-transform: translateX(122%);
+            transform: translateX(122%);
+  }
+}
+@keyframes slideRight {
+  to {
+    -webkit-transform: translateX(122%);
+            transform: translateX(122%);
+  }
+}
+@-webkit-keyframes slideLeft {
+  to {
+    -webkit-transform: translateX(-122%);
+            transform: translateX(-122%);
+  }
+}
+@keyframes slideLeft {
+  to {
+    -webkit-transform: translateX(-122%);
+            transform: translateX(-122%);
+  }
+}
+@-webkit-keyframes slideBack {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slideBack {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+.github {
+  width: 40px;
+  height: 40px;
+  background: url(http://alikinvv.github.io/github.svg) no-repeat center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-animation: github 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s infinite;
+          animation: github 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s infinite;
+}
+@-webkit-keyframes github {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes github {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+#telegram {
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+}
+
+#telegram:hover {
+	background-color: #2fa6d9;
+	transition-duration: 0.5s;
+	border-radius: 35px;
+}
+
+#vk {
+	width: 50px;
+	height: 50x;
+	background-color: transparent;
+}
+
+#vk:hover {
+	background-color: black;
+	transition-duration: 0.5s;
+	border-radius: 35px;
+}
+
+#instagram {
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+}
+
+#instagram:hover {
+	background-color: #9936b4;
+	border-radius: 30px;
+	transition-duration: 0.5s;
+
+}
+
+/* social button ended*/
+
+#content {
+	position: relative;
+	height: 100%;
+	margin-top: 120px;
+	padding: 0 100px;
+	font-family: Roboto, sans-serif;
+	color: white;
+}
+
+#logotip {
+	width: 80px;
+	margin-left: 105px;
+}
+
+#zakazat {
+	display: inline-block;
+	background-color: transparent;
+	border-radius: 25px;
+	border: 3px solid white;
+	font-size: 25px;
+	color: white;
+	padding: 10px;
+	font-family: Roboto, sans-serif;
+}
+
+/* МЕНЮХА */
+
+#text {
+	font-size: 70px;
+	font-family: Roboto, sans-serif;
+	margin-bottom: 40px;
+}
+
+#text2 {
+	font-size: 50px;
+	font-family: Roboto, sans-serif;
+	margin-bottom: 50px;
+}
+
+#zakazat:hover {
+	background-color: transparent;
+	border: 3px solid black;
+	transition-duration: 0.7s;
+
+}
+
+.social-links {
+	position: absolute;
+	bottom: 20px;
+	right: 100px;
+}
+
+/* menu */
+
+header {
+	position: relative;
+	margin-top: 50px;
+	font-family: Roboto, sans-serif;
+}
+
+.dws-menu * {
+	margin: 0;
+	padding: 0;
+	z-index: 999;
+}
+
+.dws-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+	list-style: none;
+}
+
+.dws-menu > ul {
+	display: flex;
+	justify-content: center;
+}
+
+.dws-menu > ul li {
+	position: relative;
+    
+
+}
+
+.dws-menu > ul li:first-child {}
+
+.dws-menu > ul li:last-child {}
+
+.dws-menu > ul li > a i.fa {
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+}
+
+.dws-menu > ul li a {
+	display: block;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+	padding: 15px 30px 15px 40px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.dws-menu li a:hover {
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+	color: #d9263e;
+	box-shadow: 1px 5px 10px -5px transparent;
+	transition: all 0.3s ease;
+}
+
+/*sub menu*/
+
+.dws-menu li ul {
+	position: absolute;
+	min-width: 250px;
+	display: none;
+    
+}
+
+
+.dws-menu li > ul li a {
+	padding: 10px;
+    font-size: 16px;
+	text-transform: none;
+	background: transparent;
+}
+
+
+
+.dws-menu li:hover > ul {
+	display: block;
+}
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 740px) {
+    #text {
+        font-size: 35px;
+        position: relative;
+        bottom: 60px;
+    }
+    #text2 {
+        font-size: 30px;
+        position: relative;
+        bottom: 85px;
+    }
+    .social-links{
+        right: 0;
+        width: 100%;
+        bottom: 1px;
+        text-align: center;
+    }
+    #content {
+        padding: 0 20px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .dws-menu {
+        display: none;
+    }
+    header {
+        margin-top: 30px;
+
+    }
+    #logotip {
+        width: 60px;
+        margin-left: 20px;
+    }
+    .menu:before {
+        width: 75px;
+        height: 10px;
+    }
+    .menu:after {
+        width: 75px;
+        height: 10px;
+    }
+    .menu .bar {
+        width: 75px;
+        height: 10px;
+    }
+
+/* МОБАЙЛ ПОДМЕНЮ */
+
+
+.nav {
+  width: 100%;
+ 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+.nav__item {
+  display: block;
+  height: 100px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background-color 0.1s linear, color 0.1s linear;
+  
+}
+
+
+
+
+.nav-burger {
+  display: block;
+  width: 25px;
+  height: 23px;
+  cursor: pointer;
+  color: transparent;
+  font-size: 0;
+  background: url("../images/icon-menu.svg") no-repeat;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  z-index: 3;
+ 
+}
+.nav-burger__checkbox {
+  display: none;
+}
+.nav-burger__checkbox:checked + .nav-burger {
+  background-image: url("../images/icon-cross.svg");
+}
+.nav-burger__checkbox:checked ~ .nav {
+  display: block;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    z-index: 2;
+    background: linear-gradient( 180deg,
+	#373773,
+	#235689,
+	#2a9096,
+	#364a7b,
+	#4a367b,
+	#5e3665,
+	#2c294b,
+	#31437a);
+	background-size: 1600% 1600%;
+	-webkit-animation: skygradient 180s ease infinite;
+	-moz-animation: skygradient 180s ease infinite;
+	-o-animation: skygradient 180s ease infinite;
+	animation: skygradient 180s ease infinite;
+}
+.nav-burger__checkbox:checked ~ .overlay {
+  display: block;
+}
+.mobile-menu {
+    display: block;
+}
+    #zakazat {
+        position: relative;
+        bottom: 125px;
+    }
+}
+
+
