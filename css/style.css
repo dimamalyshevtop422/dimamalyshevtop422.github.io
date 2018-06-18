@@ -406,14 +406,19 @@ header {
 
 @media screen and (max-width: 740px) {
     #text {
-        font-size: 35px; 
+        font-size: 35px;
+        position: relative;
+        bottom: 60px;
     }
     #text2 {
         font-size: 30px;
+        position: relative;
+        bottom: 85px;
     }
     .social-links{
         right: 0;
         width: 100%;
+        bottom: 1px;
         text-align: center;
     }
     #content {
@@ -528,4 +533,10 @@ header {
 .mobile-menu {
     display: block;
 }
+    #zakazat {
+        position: relative;
+        bottom: 125px;
+    }
 }
+
+
