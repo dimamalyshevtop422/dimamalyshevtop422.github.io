@@ -287,15 +287,15 @@ canvas {
 /* МЕНЮХА */
 
 #text {
-	font-size: 70px;
-	font-family: Roboto, sans-serif;
-	margin-bottom: 40px;
+    font-size: 70px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 40px;
 }
 
 #text2 {
-	font-size: 50px;
-	font-family: Roboto, sans-serif;
-	margin-bottom: 50px;
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 50px;
 }
 
 #zakazat:hover {
